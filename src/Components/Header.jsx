@@ -11,11 +11,11 @@ const Header = () =>{
             <h2 className="header_text"><a href="/" className="anchors">GeekFoods</a></h2>
         </div>
         <div className="middle_wala">
-            <a href="/" className="anchors insideer activecl">Home</a>
-            <a href="/" className="anchors insideer">Quote</a>
-            <a href="/" className="anchors insideer">Resturants</a>
-            <a href="/" className="anchors insideer">Foods</a>
-            <a href="/" className="anchors insideer">Contact</a>
+            <Link to="/" className="anchors insideer activecl">Home</Link>
+            <Link to="/quote" className="anchors insideer">Quote</Link>
+            <Link to="/resturant" className="anchors insideer">Resturants</Link>
+            <Link to="/foods" className="anchors insideer">Foods</Link>
+            <Link to="/contact" className="anchors insideer">Contact</Link>
         </div>
         <div className="right_wala">
             <Button variant="contained" style={{backgroundColor:"#1d4ed8" ,borderRadius:"10px", textTransform:"none"}}>Get Started</Button>
